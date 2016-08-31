@@ -1,21 +1,66 @@
 {% load staticfiles %}
 <html>
     <head>
+        <style>
+            #header {
+                color: #ffffff;
+                font-size: 100px;
+                font-family: Constantia;
+                padding-left: 15px;
+                padding-top: 0px;
+                background: black;
+
+            }
+            #border
+            {
+                 border-left: 6px solid black;
+                border-bottom: 6px solid black;
+
+            }
+
+            #post{
+
+
+
+            }
+            #date{
+
+                font-size: 15px;
+                padding-left: 15px;
+                font-family: David;
+            }
+            #text{
+                color: black;
+                font-family: "Book Antiqua";
+                font-size: 25px;
+                padding-left: 15px;
+            }
+             #btitle{
+                font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
+                padding: 15px;
+                 text-decoration: underline;
+
+            }
+            #body{
+            }
+        </style>
         <title>infiBlog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
     </head>
-    <body>
+    <body id="body">
         <div>
-            <h1><a href="/">infiBlog</a></h1>
+            <h1 id="header"><strong>infiblog</strong></h1>
         </div>
 
         {% for post in posts %}
-            <div>
-                <p>published: {{ post.published_date }}</p>
-                <h1><a href="">{{ post.title }}</a></h1>
-                <p>{{ post.text|linebreaksbr }}</p>
+            <div id="border">
+                <div id="post">
+                    <h1 id="btitle"><strong>{{ post.title }}</strong></h1>
+                    <p id="date">Published: {{ post.published_date }}</p>
+                </div>
+                <p id="text">{{ post.text|linebreaksbr }}</p>
             </div>
         {% endfor %}
     </body>
