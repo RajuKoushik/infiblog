@@ -54,14 +54,14 @@
             <h1 id="header"><strong>infiblog</strong></h1>
         </div>
 
-        {% for post in posts %}
+
             <div id="border">
                 <div id="post">
-                    <h1 id="btitle"> <a href="{{ post.id }}"><strong>{{ post.title }}</strong></a> </h1>
+                    <h1 id="btitle"><strong>{{ post.title }}</strong></h1>
                     <p id="date">Published : {{ post.published_date }}</p>
                 </div>
                 <p id="text">{{ post.text|linebreaksbr }}</p>
             </div>
-        {% endfor %}
+
     </body>
 </html>
