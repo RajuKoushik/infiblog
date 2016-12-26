@@ -24,3 +24,7 @@ def indi_post(request, post_id):
 def project_list(request):
     projects = Projects.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     return render(request, 'blog/project_list.html', {'projects': projects})
+
+
+def home(request):
+    return render(request, 'blog/home.html')
