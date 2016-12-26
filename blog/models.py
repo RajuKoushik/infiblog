@@ -20,6 +20,7 @@ class Post(models.Model):
 class Projects(models.Model):
     author = models.ForeignKey('auth.User')
     project_title = models.CharField(max_length=200)
+    text = models.TextField(default='project_default')
     project_image_url = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)

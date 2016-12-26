@@ -71,7 +71,7 @@
         {% for project in projects %}
             <div id="border" style="max-width: 800px; margin : 0 auto;">
                 <div id="project">
-                    <h1 id="btitle"> <a href="{{ project.id }}"><strong>{{ project.title }}</strong></a> </h1>
+                    <h1 id="btitle"> <a href="{{ project.id }}"><strong>{{ project.project_title }}</strong></a> </h1>
                     <p id="date">Published : {{ project.published_date }}</p>
                 </div>
                 <p id="text">{{ project.text|linebreaksbr }}</p>
