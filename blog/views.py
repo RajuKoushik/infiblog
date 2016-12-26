@@ -28,3 +28,7 @@ def project_list(request):
 
 def home(request):
     return render(request, 'blog/home.html')
+
+
+def portfolio(request):
+    return render(request, 'blog/portfolio.html')
