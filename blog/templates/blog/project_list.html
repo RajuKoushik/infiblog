@@ -68,13 +68,13 @@
             <h1 id="header"><strong>infiblog</strong></h1>
         </div>
 
-        {% for post in posts %}
+        {% for project in projects %}
             <div id="border" style="max-width: 800px; margin : 0 auto;">
-                <div id="post">
-                    <h1 id="btitle"> <a href="{{ post.id }}"><strong>{{ post.title }}</strong></a> </h1>
-                    <p id="date">Published : {{ post.published_date }}</p>
+                <div id="project">
+                    <h1 id="btitle"> <a href="{{ project.id }}"><strong>{{ project.title }}</strong></a> </h1>
+                    <p id="date">Published : {{ project.published_date }}</p>
                 </div>
-                <p id="text">{{ post.text|linebreaksbr }}</p>
+                <p id="text">{{ project.text|linebreaksbr }}</p>
             </div>
         {% endfor %}
     </body>
