@@ -17,14 +17,40 @@
       color: #f5f6f7;
   }
   p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
+  .margin {margin-bottom: 45px;
+            margin-left: 145px;
+            margin-right: 145px;
+
+            }
+   {% load static %}
   .bg-1 {
 
 
-      background-image:url("{% static "blog/blogbg.jpg" %}");
+
+      background-image: url("{% static "blog/final.jpeg" %}");
+
       background-color: #000000; /* Green */
       color: #ffffff;
   }
+
+  .testfont {
+    font-family: Verdana, Geneva, sans-serif;
+}
+    .overlay{
+    opacity:0.8;
+    background-color:#ccc;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+
+    .test{
+        height:100%;
+    }
+
   .bg-2 {
       background-color: #474e5d; /* Dark Blue */
       color: #ffffff;
@@ -40,6 +66,11 @@
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
+  }
+  .pos{
+        padding: 100px;
+      padding-left: 250px;
+      padding-right: 250px;
   }
   .navbar {
       padding-top: 15px;
@@ -66,7 +97,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="#">Raju Koushik</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -80,11 +111,14 @@
 
 <!-- First Container -->
  {% load static %}
-<div class="container-fluid bg-1 text-center" >
-  <h3 class="margin">Koushik's Blog</h3>
+<div class="container-fluid bg-1 text-center test" >
+  <h1 class="margin" style="font-size:50px">Koushik's Blog</h1>
 
-  <img src="{% static "blog/blogpic.jpg" %}" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="250" height="150">
-  <h3>I'm an adventurer</h3>
+
+  <p class="pos testfont" style="font-size:30px">  A coding enthusiast and a writer. I would do love to contribute to the world and make this world a better place. Previously interned at Invoxel Technologies Lmt, Delhi and Curo Helathcare, Hyderabad.
+</p>
+
+    <h3>A never ending obsession for infinity.</h3>
 </div>
 
 <!-- Second Container -->
@@ -117,7 +151,7 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Raju Koushik Gorantla <a href="http://www.w3schools.com">www.w3schools.com</a></p>
+  <p><a href="https://github.com/RajuKoushik">Raju Koushik Gorantla </a></p>
 </footer>
 
 </body>
