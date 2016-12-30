@@ -11,6 +11,63 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+
+      #header {
+                color: #ffffff;
+                font-size: 100px;
+                font-family: Constantia;
+                padding-left: 15px;
+                padding-top: 0px;
+                background: black;
+                text-align: center;
+
+            }
+            #border
+            {
+
+                border-bottom: 2px solid lightgrey;
+
+                    padding: 15px;
+
+
+            }
+
+            #post{
+
+
+
+            }
+            #name
+            {
+                font-family: Andalus;
+                font-size: 15px;
+                color: white;
+
+            }
+            #date{
+
+                font-size: 15px;
+                padding-left: 15px;
+                font-family: David;
+            }
+            #text{
+
+                font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+                font-size: 18px;
+
+                padding-left: 15px;
+            }
+             #btitle{
+               font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+
+                padding: 15px;
+                 text-decoration: underline;
+
+
+            }
+
+
+
   body {
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
@@ -52,8 +109,8 @@
     }
 
   .bg-2 {
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
+      background-color: #ffffff; /* WHite */
+      color: #555555;
   }
   .bg-3 {
       background-color: #ffffff; /* White */
@@ -121,7 +178,37 @@
     <h3>A never ending obsession for infinity.</h3>
 </div>
 
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+ {% for post in posts %}
+            <div id="border" style="max-width: 800px; margin : 0 auto;">
+                <div id="post">
+                    <h1 id="btitle"> <a href="{{ post.id }}"><strong>{{ post.title }}</strong></a> </h1>
+                    <p id="date">Published : {{ post.published_date }}</p>
+                </div>
+                <p id="text">{{ post.text|linebreaksbr }}</p>
+            </div>
+        {% endfor %}
+</div>
 
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">

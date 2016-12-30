@@ -27,7 +27,8 @@ def project_list(request):
 
 
 def home(request):
-    return render(request, 'blog/home.html')
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    return render(request, 'blog/home.html', {'posts': posts})
 
 
 def portfolio(request):
