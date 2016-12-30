@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<h
+<head>
+     {% load static %}
 
-  <title>Bootstrap Theme Simply Me</title>
+  <title>Raju Koushik</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,7 +19,10 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 {
-      background-color: #1abc9c; /* Green */
+
+
+      background-image:url("{% static "blog/blogbg.jpg" %}");
+      background-color: #000000; /* Green */
       color: #ffffff;
   }
   .bg-2 {
@@ -75,9 +79,11 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+ {% load static %}
+<div class="container-fluid bg-1 text-center" >
+  <h3 class="margin">Koushik's Blog</h3>
+
+  <img src="{% static "blog/blogpic.jpg" %}" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="250" height="150">
   <h3>I'm an adventurer</h3>
 </div>
 
@@ -111,7 +117,7 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p>
+  <p>Raju Koushik Gorantla <a href="http://www.w3schools.com">www.w3schools.com</a></p>
 </footer>
 
 </body>
