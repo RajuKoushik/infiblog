@@ -39,7 +39,7 @@
                 font-family: David;
             }
             #text{
-                color: black;
+                color: #555555;
                 font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
                 font-size: 18px;
 
@@ -52,6 +52,20 @@
 
 
             }
+
+             .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+                 font: 20px Montserrat, sans-serif;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
             #body{
 
             }
@@ -62,8 +76,29 @@
 
     </head>
     <body id="body">
+
+     <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Raju Koushik</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/#about">ABOUT ME</a></li>
+        <li><a href="/projects/">PROJECTS</a></li>
+        <li><a href="http://docdro.id/eXG8n3q">RESUME</a></li>
+          <li><a href="https://github.com/RajuKoushik">GITHUB</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
         <div>
-            <h1 id="header"><strong>infiblog</strong></h1>
+
             <p id="name">                          <strong>Raju Koushik</strong></p>
         </div>
 

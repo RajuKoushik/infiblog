@@ -63,18 +63,24 @@
             }
             #text{
                 color: #555555;
-                font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+                font-family: Verdana, Geneva, sans-serif;
                 font-size: 18px;
 
                 padding-left: 15px;
             }
              #btitle{
-                font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+                font-family: Verdana, Geneva, sans-serif;
                 padding: 15px;
-                 text-decoration: underline;
+
 
 
             }
+
+              body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
             #body{
 
 
@@ -82,6 +88,8 @@
             }
 
              .navbar {
+                 font: 20px Montserrat, sans-serif;
+
       padding-top: 15px;
       padding-bottom: 15px;
       border: 0;
@@ -91,6 +99,7 @@
       font-size: 12px;
       letter-spacing: 5px;
   }
+
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
@@ -126,9 +135,7 @@
 
     </head>
     <body id="body">
-        <div>
-            <h1 id="header" href="{{ project.id }}"><strong><a href="/">raju koushik</a></strong></h1>
-        </div>
+
 
 
         <h1 id="btitle"><center>Projects</center></h1>
@@ -137,7 +144,7 @@
             <div id="border" style="max-width: 800px; margin : 0 auto;">
                 <div id="project">
                     <h1 id="btitle"> <a href="#"><strong>{{ project.project_title }}</strong></a> </h1>
-                    <p id="date">Published : {{ project.published_date }}</p>
+                    <p id="date">{{ project.published_date }}</p>
                 </div>
                 <p id="text">{{ project.text|linebreaksbr }}</p>
             </div>
