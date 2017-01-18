@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <link href="css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      {% load static %}
 
@@ -67,6 +67,25 @@
 
 
             }
+
+
+             .hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+}
+
 
 
 .social-icon {
@@ -178,6 +197,9 @@
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+      p.detail { color:#4C4C4C;font-weight:bold;font-family:Calibri}
+span.name { color:#000000;font-weight:bold;font-family:Tahoma }
+
   </style>
 </head>
 <body>
@@ -207,13 +229,13 @@
 <!-- First Container -->
  {% load static %}
 <div class="container-fluid bg-1 text-center test" >
-  <h1 style="font-size:50px">Koushik's Blog</h1>
+  <h1 style="font-size:65px" class="detail hvr-float">Koushik's <span class="name">Blog</span></h1>
 
 
   <p class="pos testfont" style="font-size:30px">  A coding enthusiast and a writer. I would do love to contribute to the world and make this world a better place. Previously interned at Invoxel Technologies Lmt, Delhi and Curo Helathcare, Hyderabad.
 </p>
 
-    <h3>A never ending obsession for infinity.</h3>
+    <h3 class="hvr-float">A never ending obsession for infinity.</h3>
 </div>
 
 <!-- Second Container -->
@@ -221,7 +243,7 @@
 
 <div id="border" style="max-width: 800px; margin : 0 auto;">
                 <div id="about">
-                    <h1 id="btitle"> <a href="{{ post.id }}"><strong>About Me</strong></a> </h1>
+                    <h1 id="btitle" class="hvr-float"> <a href="{{ post.id }}"><strong>About Me</strong></a> </h1>
                     <p id="date">Raju Koushik Gorantla</p>
                 </div>
                 <p id="text">A man is obsessed with Infinity and he is Raju Koushik.I am a 3rd year graduate at the Indian Institute of Information Technology, Vadodara. I find enthusiasm in coding and writing. It’s been an adventurous journey with ups and downs.I feel it important to win the battle of life and put a mark.I am just a teen now and there is a lot out there in the world to fetch.I just love the art of writing.It’s reflection cheers me up even when I am on the darker side. I play Table Tennis and listen to music when I am free.
@@ -236,7 +258,7 @@ I am working on Surface computing and it’s applications, working as an intern 
  {% for post in posts %}
             <div id="border" style="max-width: 800px; margin : 0 auto;">
                 <div id="post">
-                    <h1 id="btitle"> <a href="{{ post.id }}"><strong>{{ post.title }}</strong></a> </h1>
+                    <h1 id="btitle" class="hvr-float"> <a href="{{ post.id }}"><strong>{{ post.title }}</strong></a> </h1>
                     <p id="date">{{ post.published_date }}</p>
                 </div>
                 <p id="text">{{ post.text|linebreaksbr }}</p>
@@ -248,7 +270,7 @@ I am working on Surface computing and it’s applications, working as an intern 
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p><a href="https://github.com/RajuKoushik"> 	&copy; Raju Koushik </a>   Powered by   <a href="https://www.djangoproject.com/">Django</a></p>
+  <p><a href="https://github.com/RajuKoushik"> 	&copy; Raju Koushik           </a>        Powered by   <a href="https://www.djangoproject.com/">Django</a></p>
       <div class="container">
  <ul class="social-icon animate pull-right">
                 <li><a href="https://www.facebook.com/g.rajukoushik" title="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> <!-- change the link to social page and edit title-->
