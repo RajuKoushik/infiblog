@@ -5,6 +5,7 @@
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -141,7 +142,7 @@
         <h1 id="btitle"><center>Projects</center></h1>
 
         {% for project in projects %}
-            <div id="border" style="max-width: 800px; margin : 0 auto;">
+            <div id="border" class="w3-panel w3-card-2" style="max-width: 800px; margin : 0 auto;">
                 <div id="project">
                     <h1 id="btitle"> <a href="#"><strong>{{ project.project_title }}</strong></a> </h1>
                     <p id="date">{{ project.published_date }}</p>
