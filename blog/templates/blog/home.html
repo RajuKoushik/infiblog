@@ -27,6 +27,8 @@
                 text-align: center;
 
             }
+
+
             #border
             {
 
@@ -152,9 +154,15 @@
             }
    {% load static %}
   .bg-1 {
+      background-image: url("{% static "blog/final.jpeg" %}") ;
 
+<<<<<<< Updated upstream
       background: url("{% static "blog/final.jpeg" %}");
       
+=======
+
+
+>>>>>>> Stashed changes
       background-color: #000000; /* Green */
       color: #ffffff;
   }
@@ -163,7 +171,12 @@
     font-family: Verdana, Geneva, sans-serif;}
 
     .test{
+<<<<<<< Updated upstream
         height: calc(100vh);
+=======
+        height: calc(100vh - 80px);
+
+>>>>>>> Stashed changes
     }
 
     .pad-remove{
@@ -171,11 +184,13 @@
 
     }
   .bg-2 {
-      background-color: #ffffff; /* WHite */
+      background-color: #f5f6f7; /* WHite */
+
       color: #555555;
   }
   .bg-3 {
       background-color: #ffffff; /* White */
+
       color: #555555;
   }
   .bg-4 {
@@ -188,6 +203,12 @@
   }
   .pos{
         padding: 100px;
+
+  }
+
+  .overlay{
+background: rgba(8,56,54,0.7);
+       opacity: 0.8;
 
   }
   .navbar {
@@ -263,14 +284,32 @@ span.name { color:#000000;font-weight:bold;font-family:Tahoma }
     </div>
   </div>
 </nav>
+<<<<<<< Updated upstream
   <h1 style="font-size:65px; margin-top: 50px;" class="detail hvr-float">Koushik's <span class="name">Blog</span></h1>
+=======
+
+<!-- First Container -->
+ {% load static %}
+
+<div class="overlay">
+<div class="container-fluid bg-1 text-center test" >
+
+  <h1 style="font-size:65px" class="detail hvr-float">Koushik's <span class="name">Blog</span></h1>
+>>>>>>> Stashed changes
 
 
   <p class="pos testfont" style="font-size:30px">  A coding enthusiast and a writer. I would do love to contribute to the world and make this world a better place.
 </p>
 
+<<<<<<< Updated upstream
     <h3 class="hvr-float">A never ending obsession for infinity.</h3><br>
     <img style="height: 100px;" src="{% static "blog/dashinfinity.gif" %}">
+=======
+    <h3 class="hvr-float">A never ending obsession for infinity.</h3>
+    
+
+</div>
+>>>>>>> Stashed changes
 </div>
 
 <!-- Second Container -->
