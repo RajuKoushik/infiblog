@@ -153,10 +153,8 @@
    {% load static %}
   .bg-1 {
 
-
-
-      background-image: url("{% static "blog/final.jpeg" %}");
-
+      background: url("{% static "blog/final.jpeg" %}");
+      
       background-color: #000000; /* Green */
       color: #ffffff;
   }
@@ -164,13 +162,14 @@
   .testfont {
     font-family: Verdana, Geneva, sans-serif;}
 
-
-
-
     .test{
-        height: calc(100vh - 80px);
+        height: calc(100vh);
     }
 
+    .pad-remove{
+      margin-top: -70px;
+
+    }
   .bg-2 {
       background-color: #ffffff; /* WHite */
       color: #555555;
@@ -200,6 +199,34 @@
       font-size: 12px;
       letter-spacing: 5px;
   }
+
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ddd /* change this to any color you want! */;
+}
+
+.navbar-header button:hover{
+  color: #fff;
+}
+  
+  .navbar-header a:hover{
+    color: #1abc9c !important;
+  }
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
@@ -210,8 +237,13 @@ span.name { color:#000000;font-weight:bold;font-family:Tahoma }
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
+
+<!-- First Container -->
+ {% load static %}
+<div class="container-fluid bg-1 text-center test" >
+
+  <!-- Navbar -->
+<nav class="pad-remove navbar navbar-transparent">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -231,17 +263,14 @@ span.name { color:#000000;font-weight:bold;font-family:Tahoma }
     </div>
   </div>
 </nav>
-
-<!-- First Container -->
- {% load static %}
-<div class="container-fluid bg-1 text-center test" >
-  <h1 style="font-size:65px" class="detail hvr-float">Koushik's <span class="name">Blog</span></h1>
+  <h1 style="font-size:65px; margin-top: 50px;" class="detail hvr-float">Koushik's <span class="name">Blog</span></h1>
 
 
   <p class="pos testfont" style="font-size:30px">  A coding enthusiast and a writer. I would do love to contribute to the world and make this world a better place.
 </p>
 
-    <h3 class="hvr-float">A never ending obsession for infinity.</h3>
+    <h3 class="hvr-float">A never ending obsession for infinity.</h3><br>
+    <img style="height: 100px;" src="{% static "blog/dashinfinity.gif" %}">
 </div>
 
 <!-- Second Container -->
