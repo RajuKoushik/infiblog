@@ -33,3 +33,6 @@ def home(request):
 
 def portfolio(request):
     return render(request, 'blog/portfolio.html')
+
+
+

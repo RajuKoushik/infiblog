@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <script>
+$(document).ready(function(){
+    $("#upvoteIcon").click(function(){
+        $("fa-thumbs-up").toggleClass("fa-thumbs-o-up");
+    });
+});
+</script>
 <head>
+
+    <script src="jquery-3.1.1.min.js"></script>
     <link href="css/hover.css" rel="stylesheet" media="all">
 
 
@@ -115,7 +125,7 @@
    {% load static %}
   .bg-1 {
       background: url("{% static "blog/final.jpeg" %}");
-
+      background-attachment: fixed;
       background-color: #000000; /* Green */
       color: #ffffff;
   }
@@ -195,7 +205,7 @@ span.name { color:#1abc9c;font-weight:bold;font-family:Tahoma }
 <div class="container-fluid bg-1 text-center test" >
 
   <!-- Navbar -->
-<nav class="pad-remove navbar navbar-transparent">
+<nav class="pad-remove navbar ">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -249,7 +259,15 @@ I am working on Surface computing and it’s applications, working as an intern 
                     <p id="date">{{ post.published_date }}</p>
                 </div>
                 <p align="left" id="text">{{ post.text|linebreaksbr }}</p>
+
+            <hr color="green" width="100%">
+            <i class="fa fa-thumbs-up" aria-hidden="true"  id="upvoteIcon"></i>
+
+
+
             </div>
+
+     <hr color="green" width="100%">
         {% endfor %}
 </div>
 
@@ -267,4 +285,9 @@ I am working on Surface computing and it’s applications, working as an intern 
 </footer>
 
 </body>
+
+
+
+
+
 </html>
