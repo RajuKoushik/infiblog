@@ -92,8 +92,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="246" column="91" selection-start-line="246" selection-start-column="91" selection-end-line="246" selection-end-column="91" />
+            <state relative-caret-position="375">
+              <caret line="261" column="98" selection-start-line="261" selection-start-column="98" selection-end-line="261" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -882,7 +882,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488648374413</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="minor glitches.">
+      <created>1488648452074</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1488648452074</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1318,8 +1325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="246" column="91" selection-start-line="246" selection-start-column="91" selection-end-line="246" selection-end-column="91" />
+        <state relative-caret-position="375">
+          <caret line="261" column="98" selection-start-line="261" selection-start-column="98" selection-end-line="261" selection-end-column="98" />
           <folding />
         </state>
       </provider>
