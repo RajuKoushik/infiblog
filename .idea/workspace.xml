@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24d580a1-2746-4d87-a487-1e62a246d215" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" />
     </list>
     <ignored path="infiblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,7 +91,7 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="720">
               <caret line="261" column="98" selection-start-line="261" selection-start-column="98" selection-end-line="261" selection-end-column="98" />
               <folding />
             </state>
@@ -889,7 +888,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488648452074</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="minor glitches.">
+      <created>1488648485333</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1488648485333</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1325,7 +1331,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="720">
           <caret line="261" column="98" selection-start-line="261" selection-start-column="98" selection-end-line="261" selection-end-column="98" />
           <folding />
         </state>
