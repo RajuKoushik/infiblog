@@ -23,6 +23,10 @@ $(document).ready(function(){
 });
 </script>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico" />
 
@@ -144,6 +148,11 @@ $(document).ready(function(){
       background-attachment: fixed;
       background-color: #000000; /* Green */
       color: #ffffff;
+      justify-content: center;
+        align-items: center;
+        /* vertical-align: baseline; */
+        /* display: flex; */
+        display: grid;
   }
   .testfont {
     font-family: Verdana, Geneva, sans-serif;}
@@ -170,7 +179,8 @@ $(document).ready(function(){
       padding-bottom: 70px;
   }
   .pos{
-        padding: 100px;
+      padding-top: 100px;
+      padding-bottom: 100px;
   }
   .navbar {
       padding-top: 15px;
@@ -218,7 +228,7 @@ span.name { color:#1abc9c;font-weight:bold;font-family:Tahoma }
 
 <!-- First Container -->
  {% load static %}
-<div class="container-fluid bg-1 text-center test" >
+<div class="container-fluid bg-1 text-center" >
 
   <!-- Navbar -->
 <nav class="pad-remove navbar ">
@@ -244,7 +254,7 @@ span.name { color:#1abc9c;font-weight:bold;font-family:Tahoma }
   <h1 style="font-size:65px; margin-top: 50px;" class="detail hvr-float">Koushik's <span class="name">Blog</span></h1>
 
 
-  <p class="pos testfont" style="font-size:30px">  A coding enthusiast and a writer. Would love to contribute to the world and make this world a better place.
+  <p class="container-fluid pos testfont" style="font-size:30px">  A coding enthusiast and a writer. Would love to contribute to the world and make this world a better place.
 </p>
 
     <h3 class="hvr-float">A never ending obsession for infinity.</h3><br>
@@ -259,7 +269,7 @@ span.name { color:#1abc9c;font-weight:bold;font-family:Tahoma }
                     <h1 id="btitle" class="hvr-float"> <a href="{{ post.id }}" style="color:#1abc9c "><strong>About Me</strong></a> </h1>
                     <p id="date">Raju Koushik Gorantla</p>
                 </div>
-                <p align="left" id="text">A man is obsessed with Infinity and he is Raju Koushik.A 3rd year graduate at the Indian Institute of Information Technology, Vadodara. I find enthusiasm in coding and writing. It’s been an adventurous journey with ups and downs.I feel it important to win the battle of life and put a mark.I am just a teen now and there is a lot out there in the world to fetch.I just love the art of writing.It’s reflection cheers me up even when I am on the darker side. I play Table Tennis and listen to music when I am free.
+                <p align="left" id="text">A man is obsessed with Infinity and he is Raju Koushik. 3rd year graduate at the Indian Institute of Information Technology, Vadodara. I find enthusiasm in coding and writing. It’s been an adventurous journey with ups and downs.I feel it important to win the battle of life and put a mark.I am just a teen now and there is a lot out there in the world to fetch.I just love the art of writing.It’s reflection cheers me up even when I am on the darker side. I play Table Tennis and listen to music when I am free.
 
 I have keen interests towards research in Neural Networks, Internet of Things, Surface Computing and Cloud Computing.
 
