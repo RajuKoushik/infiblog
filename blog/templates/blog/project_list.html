@@ -73,6 +73,7 @@
         #btitle {
             font-family: Verdana, Geneva, sans-serif;
             padding: 15px;
+            font-weight: bold;
 
         }
 
@@ -101,6 +102,7 @@
 
         .navbar {
             font: 20px Montserrat, sans-serif;
+            font-weight: bold;
 
             padding-top: 15px;
             padding-bottom: 15px;
@@ -153,12 +155,14 @@
 </h1>
 
 {% for project in projects %}
-    <div id="border" class="w3-panel w3-card-2" style="max-width: 800px; margin : 0 auto;">
+    <div class="container" style="max-width: 800px; margin : 0 auto;">
+    <div class="jumbotron">
         <div id="project">
-            <h1 id="btitle"><a href="#" style="color:#1abc9c "><strong>{{ project.project_title }}</strong></a></h1>
+            <h2 id="btitle"><a href="#" style="color:#1abc9c "><strong>{{ project.project_title }}</strong></a></h2>
             <p id="date">{{ project.published_date }}</p>
         </div>
         <p id="text">{{ project.text|linebreaksbr }}</p>
+    </div>
     </div>
 {% endfor %}
 
