@@ -1,122 +1,135 @@
 {% load staticfiles %}
 <html>
-    <head>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-        <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico" />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-        <style>
-            #header {
-                color: #ffffff;
-                font-size: 100px;
-                font-family: Constantia;
-                padding-left: 15px;
-                padding-top: 0px;
-                background: black;
-                text-align: center;
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-            }
-            #border
-            {
-                 border-left: 6px solid black;
+    <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico"/>
 
+    <style>
+        #header {
+            color: #ffffff;
+            font-size: 100px;
+            font-family: Constantia;
+            padding-left: 15px;
+            padding-top: 0px;
+            background: black;
+            text-align: center;
 
-            }
+        }
 
-            #post{
+        #border {
+            border-left: 6px solid black;
 
+        }
 
+        #post {
 
-            }
-            #name
-            {
-                font-family: Andalus;
-                font-size: 15px;
-                color: white;
+        }
 
-            }
-            #date{
+        #name {
+            font-family: Andalus;
+            font-size: 15px;
+            color: white;
 
-                font-size: 15px;
-                padding-left: 15px;
-                font-family: David;
-            }
-            #text{
-                color: #555555;
-                font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-                font-size: 18px;
+        }
 
-                padding-left: 15px;
-            }
-             #btitle{
-                font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
-                padding: 15px;
-                 text-decoration: underline;
+        #date {
 
+            font-size: 15px;
+            padding-left: 15px;
+            font-family: David;
+        }
 
-            }
+        #text {
+            color: #555555;
+            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+            font-size: 18px;
 
-             .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-                 font: 20px Montserrat, sans-serif;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-            #body{
+            padding-left: 15px;
+        }
 
-            }
-        </style>
-        <title>infiBlog</title>
+        #btitle {
+            font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
+            padding: 15px;
 
 
-    </head>
-    <body id="body">
+        }
 
-     <nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Raju Koushik</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/#about">ABOUT ME</a></li>
-        <li><a href="/projects/">PROJECTS</a></li>
-        <li><a href="http://docdro.id/eXG8n3q">RESUME</a></li>
-          <li><a href="https://github.com/RajuKoushik">GITHUB</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-        <div>
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            font: 20px Montserrat, sans-serif;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
 
-            <p id="name">                          <strong>Raju Koushik</strong></p>
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+
+        #body {
+
+        }
+    </style>
+    <title>infiBlog</title>
+
+
+</head>
+<body id="body">
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Raju Koushik</a>
         </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/#about">ABOUT ME</a></li>
+                <li><a href="/projects/">PROJECTS</a></li>
+                <li><a href="http://docdro.id/eXG8n3q">RESUME</a></li>
+                <li><a href="https://github.com/RajuKoushik">GITHUB</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+
+    <p id="name"><strong>Raju Koushik</strong></p>
+</div>
 
 
-            <div id="border" style="max-width: 800px; margin : 0 auto;">
-                <div id="post">
-                    <h1 id="btitle"><strong>{{ post.title }}</strong></h1>
-                    <p id="date">Published : {{ post.published_date }}</p>
-                </div>
-                <p id="text">{{ post.text|linebreaksbr }}</p>
-            </div>
+<div class="container" style="max-width: 800px; margin : 0 auto;">
+    <div class="jumbotron">
+        <div id="post">
+            <h2 id="btitle"><strong>{{ post.title }}</strong></h2>
+            <p id="date">Published : {{ post.published_date }}</p>
+        </div>
+        <p id="text">{{ post.text|linebreaksbr }}</p>
+    </div>
+</div>
 
 
-
-    </body>
+</body>
 
 
 </html>

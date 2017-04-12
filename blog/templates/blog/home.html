@@ -279,11 +279,13 @@ I am working on Surface computing and it’s applications, working as an intern 
             </div>
 
  {% for post in posts %}
-            <div id="border"  class="w3-panel w3-card-2" style="max-width: 800px; margin : 0 auto;">
-                <div id="post">
-                    <h1 id="btitle" class="hvr-float"> <a href="{{ post.id }} " style="color:#1abc9c "><strong>{{ post.title }}</strong></a> </h1>
+
+                <div class="container" style="max-width: 800px; margin : 0 auto;">
+                <div class="jumbotron">
+                    <h2 id="btitle" class="hvr-float"> <a href="{{ post.id }} " style="color:#1abc9c "><strong>{{ post.title }}</strong></a> </h2>
                     <p id="date">{{ post.published_date }}</p>
-                </div>
+
+
                 <p align="left" id="text">{{ post.text|linebreaksbr }}</p>
 
             <hr color="green" width="100%">
@@ -291,6 +293,7 @@ I am working on Surface computing and it’s applications, working as an intern 
 
 
 
+            </div>
             </div>
 
      <hr color="green" width="100%">

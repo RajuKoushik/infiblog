@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/indi_post.html" afterPath="$PROJECT_DIR$/blog/templates/blog/indi_post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/project_list.html" afterPath="$PROJECT_DIR$/blog/templates/blog/project_list.html" />
     </list>
     <ignored path="infiblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,44 +31,15 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/project_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2531">
-              <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/static/blog/project.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/apps.py">
+      <file leaf-file-name="hello.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/hello.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -78,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+            <state relative-caret-position="315">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indi_post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/indi_post.html">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+            <state relative-caret-position="255">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -101,27 +71,75 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="256" column="32" selection-start-line="256" selection-start-column="32" selection-end-line="256" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="469">
+              <caret line="282" column="16" selection-start-line="282" selection-start-column="16" selection-end-line="283" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/portfolio.html">
+      <file leaf-file-name="indi_post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/blog/indi_post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="121" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moon.jpeg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/static/blog/moon.jpeg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local_setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myblog/local_setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -144,17 +162,17 @@
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/portfolio.html" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/myblog/urls.py" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/project_list.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/runtime" />
         <option value="$PROJECT_DIR$/myblog/local_setting.py" />
         <option value="$PROJECT_DIR$/myblog/settings.py" />
         <option value="$PROJECT_DIR$/myblog/wsgi.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/project_list.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/indi_post.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/home.html" />
       </list>
@@ -195,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,6 +298,10 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -299,18 +320,15 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hello.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/CompetitiveCodingSubmissions" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -323,10 +341,491 @@
       <recent name="$PROJECT_DIR$/blog/static/blog" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blog/templates/blog" />
       <recent name="$PROJECT_DIR$/blog/static/blog" />
       <recent name="$PROJECT_DIR$/blog/static" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/admin.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/migrations/0001_initial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/migrations/0002_projects.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/migrations/0003_projects_text.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/migrations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/templates/blog/home.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/templates/blog/indi_post.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/templates/blog/post_list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/templates/blog/project_list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/urls.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/views.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/views.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/myblog/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/myblog/settings.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/myblog/settings.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/myblog/urls.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/myblog/wsgi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/easy_install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/__main__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/appdirs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/_cmd.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/adapter.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/cache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/controller.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/filewrapper.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/heuristics.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/serialize.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/cachecontrol/wrapper.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/ansitowin32.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/initialise.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/win32.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/colorama/winterm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/misc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/shutil.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/_backport/tarfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/database.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/locators.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/manifest.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/markers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/metadata.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/resources.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distlib/wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/distro.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_ihatexml.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_inputstream.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_tokenizer.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/_base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/datrie.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_trie/py.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/_utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/constants.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/lint.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/filters/whitespace.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/html5parser.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/serializer.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/base.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/ipaddress.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/linklockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/pidlockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/lockfile/symlinklockfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/ordereddict.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__about__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/_structures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/markers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/requirements.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/packaging/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/bar.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/counter.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/helpers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/progress/spinner.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/pyparsing.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/re-vendor.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/adapters.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/api.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/auth.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/certs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/cookies.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/exceptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/hooks.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/models.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5freq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/big5prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardetect.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/chardistribution.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetgroupprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/charsetprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/codingstatemachine.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/constants.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/cp949prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/escsm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/eucjpprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrfreq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euckrprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwfreq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/euctwprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312freq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/gb2312prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/hebrewprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jisfreq.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/jpcntx.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langbulgarianmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langcyrillicmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langgreekmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhebrewmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langhungarianmodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/langthaimodel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/latin1prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcharsetprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcsgroupprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/mbcssm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcharsetprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sbcsgroupprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/sjisprober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/universaldetector.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/chardet/utf8prober.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/_collections.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connection.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/connectionpool.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/socks.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/fields.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/filepost.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ordered_dict.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/six.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/poolmanager.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/request.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/response.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/connection.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/request.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/response.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/retry.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/timeout.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/url.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/sessions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/status_codes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/structures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/requests/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/retrying.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/six.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/labels.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/mklabels.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/tests.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/_vendor/webencodings/x_user_defined.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/basecommand.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/baseparser.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/cmdoptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/check.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/completion.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/download.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/freeze.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/hash.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/help.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/list.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/search.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/show.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/uninstall.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/commands/wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/compat/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/compat/dictconfig.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/download.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/exceptions.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/locations.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/models/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/models/index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/operations/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/operations/check.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/operations/freeze.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/pep425tags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_file.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_set.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/req/req_uninstall.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/status_codes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/appdirs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/build.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/deprecation.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/encoding.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/filesystem.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/glibc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/hashes.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/logging.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/outdated.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/packaging.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/setuptools_build.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/utils/ui.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/vcs/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/vcs/bazaar.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/vcs/git.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/vcs/mercurial.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/vcs/subversion.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pip/wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/appdirs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__about__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/_structures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/markers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/requirements.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/specifiers.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/packaging/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/pyparsing.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/_vendor/six.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/pkg_resources/extern/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/archive_util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/alias.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_egg.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_rpm.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/bdist_wininst.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_ext.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/build_py.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/develop.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/easy_install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/egg_info.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_egg_info.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_lib.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/install_scripts.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/py36compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/register.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/rotate.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/saveopts.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/sdist.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/setopt.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/test.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/command/upload_docs.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/config.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/depends.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/dist.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/extension.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/extern/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/glob.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/launch.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/lib2to3_ex.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/monkey.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/msvc.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/namespaces.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/package_index.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py26compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py27compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py31compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py33compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/py36compat.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/sandbox.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/site-patch.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/ssl_support.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/unicode_utils.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/version.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/setuptools/windows_support.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__main__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/archive.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/bdist_wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/decorator.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/egg2wheel.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/metadata.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/paths.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pep425tags.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pkginfo.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/djbec.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/ed25519py.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/keys.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/complex-dist/complexdist/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/complex-dist/setup.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/headers.dist/headersdist.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/headers.dist/setup.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/simple.dist/setup.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/simple.dist/simpledist/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_basic.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_install.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_keys.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_paths.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_ranking.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_signatures.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_tagopt.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_tool.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/test/test_wheelfile.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/tool/__init__.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/util.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/wininst2wheel.pyc</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/bg1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/bgbg.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/bggb.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/dashinfinity.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/fbicon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/gbgb.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/static/blog/infi.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nohup.out</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -668,133 +1167,31 @@
       <option name="project" value="LOCAL" />
       <updated>1483118167753</updated>
     </task>
-    <task id="LOCAL-00018" summary="included link for  resume">
-      <created>1484125907310</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1484125907310</updated>
-    </task>
-    <task id="LOCAL-00019" summary="UI Changes updated">
-      <created>1484663702640</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1484663702640</updated>
-    </task>
-    <task id="LOCAL-00020" summary="UI Changes updated">
-      <created>1484680925875</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1484680925875</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update fotter icons">
-      <created>1484731364524</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1484731364524</updated>
-    </task>
-    <task id="LOCAL-00022" summary="UI glitches">
-      <created>1484733028626</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1484733028626</updated>
-    </task>
-    <task id="LOCAL-00023" summary="UI glitches">
-      <created>1484738319431</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1484738319431</updated>
-    </task>
-    <task id="LOCAL-00024" summary="UI glitches">
-      <created>1484815875806</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1484815875806</updated>
-    </task>
-    <task id="LOCAL-00025" summary="UI glitches">
-      <created>1485143154305</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1485143154306</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Color scheme Updated. Use of Uniform colors">
-      <created>1485145097762</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1485145097762</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Color scheme Updated. Use of Uniform colors">
-      <created>1485145298450</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1485145298450</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Color scheme Updated. Use of Uniform colors">
-      <created>1485455443617</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1485455443617</updated>
-    </task>
-    <task id="LOCAL-00029" summary="minor glitches.">
-      <created>1488645806777</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1488645806777</updated>
-    </task>
-    <task id="LOCAL-00030" summary="minor glitches.">
-      <created>1488648374413</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1488648374413</updated>
-    </task>
-    <task id="LOCAL-00031" summary="minor glitches.">
-      <created>1488648452074</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1488648452074</updated>
-    </task>
-    <task id="LOCAL-00032" summary="minor glitches.">
-      <created>1488648485333</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1488648485333</updated>
-    </task>
-    <task id="LOCAL-00033" summary="minor glitches.">
-      <created>1488648845961</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1488648845961</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31473532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29756796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2039801" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18034826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2039801" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -802,7 +1199,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -832,13 +1228,7 @@
     <MESSAGE value="Minor Glitches" />
     <MESSAGE value="Final Commit." />
     <MESSAGE value="included requirements.txt" />
-    <MESSAGE value="included link for  resume" />
-    <MESSAGE value="UI Changes updated" />
-    <MESSAGE value="update fotter icons" />
-    <MESSAGE value="UI glitches" />
-    <MESSAGE value="Color scheme Updated. Use of Uniform colors" />
-    <MESSAGE value="minor glitches." />
-    <option name="LAST_COMMIT_MESSAGE" value="minor glitches." />
+    <option name="LAST_COMMIT_MESSAGE" value="included requirements.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -847,11 +1237,71 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myblog/local_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#308#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/project_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
           <caret line="204" column="121" selection-start-line="204" selection-start-column="121" selection-end-line="204" selection-end-column="121" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -859,6 +1309,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,6 +1317,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -873,6 +1325,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,6 +1333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +1393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="66" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +1400,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="66" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +1487,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,6 +1511,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1040,10 +1525,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/project_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1057,10 +1584,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,34 +1604,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myblog/local_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,119 +1612,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/bgbg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/bggb.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/gbgb.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/infi.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/moon.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/apps.py">
+    <entry file="file://$PROJECT_DIR$/runtime">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/portfolio.html">
+    <entry file="file://$PROJECT_DIR$/myblog/local_setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/blog/project.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/project_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2531">
-          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/indi_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
-          <folding />
+        <state relative-caret-position="288">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="121" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="256" column="32" selection-start-line="256" selection-start-column="32" selection-end-line="256" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="469">
+          <caret line="282" column="16" selection-start-line="282" selection-start-column="16" selection-end-line="283" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
