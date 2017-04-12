@@ -1,100 +1,103 @@
 {% load staticfiles %}
 <html>
-    <head>
-        <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico" />
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico"/>
 
-        <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         <style>
-            #header {
-                color: #ffffff;
-                font-size: 100px;
-                font-family: Constantia;
-                padding-left: 15px;
-                padding-top: 0px;
-                background: black;
-                text-align: center;
+    <style>
+        #header {
+            color: #ffffff;
+            font-size: 100px;
+            font-family: Constantia;
+            padding-left: 15px;
+            padding-top: 0px;
+            background: black;
+            text-align: center;
 
-            }
-            #border
-            {
-                 border-left: 6px solid black;
-                border-bottom: 6px solid black;
+        }
 
-                    padding: 15px;
+        #border {
+            border-left: 6px solid black;
+            border-bottom: 6px solid black;
+
+            padding: 15px;
+
+        }
+
+        #post {
+
+        }
+
+        #name {
+            font-family: Andalus;
+            font-size: 15px;
+            color: white;
+
+        }
+
+        #date {
+
+            font-size: 15px;
+            padding-left: 15px;
+            font-family: David;
+        }
+
+        #text {
+            color: black;
+            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+            font-size: 18px;
+
+            padding-left: 15px;
+        }
+
+        #btitle {
+            font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
+            padding: 15px;
+            text-decoration: underline;
+
+        }
+
+        #body {
+
+        }
+    </style>
+    <title>infiBlog</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+</head>
+<body id="body">
+<div>
+    <h1 id="header"><strong>infiblog</strong></h1>
+</div>
 
 
-            }
 
-            #post{
-
-
-
-            }
-            #name
-            {
-                font-family: Andalus;
-                font-size: 15px;
-                color: white;
-
-            }
-            #date{
-
-                font-size: 15px;
-                padding-left: 15px;
-                font-family: David;
-            }
-            #text{
-                color: black;
-                font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-                font-size: 18px;
-
-                padding-left: 15px;
-            }
-             #btitle{
-                font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
-                padding: 15px;
-                 text-decoration: underline;
-
-
-            }
-            #body{
-
-            }
-        </style>
-        <title>infiBlog</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-    </head>
-    <body id="body">
-        <div>
-            <h1 id="header"><strong>infiblog</strong></h1>
+{% for post in posts %}
+    <div id="border" style="max-width: 800px; margin : 0 auto;">
+        <div id="post">
+            <h1 id="btitle"><a href="{{ post.id }}"><strong>{{ post.title }}</strong></a></h1>
+            <p id="date">Published : {{ post.published_date }}</p>
         </div>
-
-
-
-        {% for post in posts %}
-            <div id="border" style="max-width: 800px; margin : 0 auto;">
-                <div id="post">
-                    <h1 id="btitle"> <a href="{{ post.id }}"><strong>{{ post.title }}</strong></a> </h1>
-                    <p id="date">Published : {{ post.published_date }}</p>
-                </div>
-                <p id="text">{{ post.text|linebreaksbr }}</p>
-            </div>
-        {% endfor %}
-    </body>
-
+        <p id="text">{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+</body>
 
 
 <footer class="container-fluid bg-4 text-center">
-  <p><a href="https://github.com/RajuKoushik"> 	&copy; Raju Koushik           </a>        Powered by   <a href="https://www.djangoproject.com/">Django</a></p>
-      <div class="container">
- <ul class="social-icon animate pull-right">
-                <li><a href="https://www.facebook.com/g.rajukoushik" title="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> <!-- change the link to social page and edit title-->
-                  <li><a href="https://twitter.com/132ed143fb374f7" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="https://plus.google.com/u/0/104727747464105030726" title="google plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                </ul>
-                </div>
+    <p><a href="https://github.com/RajuKoushik">    &copy; Raju Koushik </a> Powered by <a
+            href="https://www.djangoproject.com/">Django</a></p>
+    <div class="container">
+        <ul class="social-icon animate pull-right">
+            <li><a href="https://www.facebook.com/g.rajukoushik" title="facebook" target="_blank"><i
+                    class="fa fa-facebook"></i></a></li> <!-- change the link to social page and edit title-->
+            <li><a href="https://twitter.com/132ed143fb374f7" title="twitter" target="_blank"><i
+                    class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/104727747464105030726" title="google plus" target="_blank"><i
+                    class="fa fa-google-plus"></i></a></li>
+        </ul>
+    </div>
 </footer>
 </html>

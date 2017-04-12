@@ -61,9 +61,8 @@
         }
 
         #btitle {
-            font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
+            font-family: Verdana, Geneva, sans-serif;
             padding: 15px;
-
 
         }
 
@@ -121,8 +120,8 @@
 <div class="container" style="max-width: 800px; margin : 0 auto;">
     <div class="jumbotron">
         <div id="post">
-            <h2 id="btitle"><strong>{{ post.title }}</strong></h2>
-            <p id="date">Published : {{ post.published_date }}</p>
+            <h2 id="btitle" style="color: #1abc9c"><strong>{{ post.title }}</strong></h2>
+            <p id="date" style="color:#4C4C4C ">Published : {{ post.published_date }}</p>
         </div>
         <p id="text">{{ post.text|linebreaksbr }}</p>
     </div>

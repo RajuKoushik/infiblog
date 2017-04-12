@@ -3,181 +3,167 @@
 
 
 <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<head>
 
-        <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico" />
-         <style>
-            #header {
-                color: #ffffff;
-                font-size: 100px;
-                font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-                padding-left: 15px;
-                padding-top: 0px;
+    <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico"/>
+    <style>
+        #header {
+            color: #ffffff;
+            font-size: 100px;
+            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+            padding-left: 15px;
+            padding-top: 0px;
 
-                text-align: center;
+            text-align: center;
 
-            }
-            #border
-            {
+        }
 
-                border-bottom: 2px solid lightgrey;
+        #border {
 
-                    padding: 15px;
+            border-bottom: 2px solid lightgrey;
 
+            padding: 15px;
 
-            }
+        }
 
-            #post{
+        #post {
 
+        }
 
+        #border {
 
-            }
+            border-bottom: 2px solid lightgrey;
 
-            #border
-            {
+            padding: 15px;
 
-                border-bottom: 2px solid lightgrey;
+        }
 
-                    padding: 15px;
+        #name {
+            font-family: Andalus;
+            font-size: 15px;
+            color: white;
 
+        }
 
-            }
-            #name
-            {
-                font-family: Andalus;
-                font-size: 15px;
-                color: white;
+        .testfont {
+            font-family: Verdana, Geneva, sans-serif;
+        }
 
-            }
-            .testfont {
-    font-family: Verdana, Geneva, sans-serif;}
+        #date {
 
-            #date{
+            font-size: 15px;
+            padding-left: 15px;
+            font-family: David;
+        }
 
-                font-size: 15px;
-                padding-left: 15px;
-                font-family: David;
-            }
-            #text{
-                color: #555555;
-                font-family: Verdana, Geneva, sans-serif;
-                font-size: 18px;
+        #text {
+            color: #555555;
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 18px;
 
-                padding-left: 15px;
-            }
-             #btitle{
-                font-family: Verdana, Geneva, sans-serif;
-                padding: 15px;
+            padding-left: 15px;
+        }
 
+        #btitle {
+            font-family: Verdana, Geneva, sans-serif;
+            padding: 15px;
 
+        }
 
-            }
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
 
-              body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-            #body{
+        #body {
 
+        }
 
+        .navbar-default {
+            font: 20px Montserrat, sans-serif;
 
-            }
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
 
-            .navbar-default{
-                 font: 20px Montserrat, sans-serif;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
 
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
+        .navbar {
+            font: 20px Montserrat, sans-serif;
 
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
 
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
 
-
-             .navbar {
-                 font: 20px Montserrat, sans-serif;
-
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-        </style>
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+    </style>
 
 
-        <nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Raju Koushik</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/#about">ABOUT ME</a></li>
-        <li><a href="/projects/">PROJECTS</a></li>
-        <li><a href="http://docdro.id/eXG8n3q">RESUME</a></li>
-          <li><a href="https://github.com/RajuKoushik">GITHUB</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-
-        <title>Projects</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-    </head>
-    <body id="body">
-
-
-
-        <h1 id="btitle"><center>Projects</center></h1>
-
-        {% for project in projects %}
-            <div id="border" class="w3-panel w3-card-2" style="max-width: 800px; margin : 0 auto;">
-                <div id="project">
-                    <h1 id="btitle"> <a href="#" style="color:#1abc9c "><strong>{{ project.project_title }}</strong></a> </h1>
-                    <p id="date">{{ project.published_date }}</p>
-                </div>
-                <p id="text">{{ project.text|linebreaksbr }}</p>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Raju Koushik</a>
             </div>
-        {% endfor %}
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/#about">ABOUT ME</a></li>
+                    <li><a href="/projects/">PROJECTS</a></li>
+                    <li><a href="http://docdro.id/eXG8n3q">RESUME</a></li>
+                    <li><a href="https://github.com/RajuKoushik">GITHUB</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
+    <title>Projects</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
-    </body>
+</head>
+<body id="body">
 
 
+<h1 id="btitle">
+    <center>Projects</center>
+</h1>
+
+{% for project in projects %}
+    <div id="border" class="w3-panel w3-card-2" style="max-width: 800px; margin : 0 auto;">
+        <div id="project">
+            <h1 id="btitle"><a href="#" style="color:#1abc9c "><strong>{{ project.project_title }}</strong></a></h1>
+            <p id="date">{{ project.published_date }}</p>
+        </div>
+        <p id="text">{{ project.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
 
 
-
-
-
+</body>
 
 
 </html>
