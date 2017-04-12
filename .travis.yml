@@ -1,27 +1,11 @@
-language: python # => 1
-
-    python: # => 2
-
-      - "2.6"
-
-      - "2.7"
-      
-      - "3.5"
-
-    services: # => 3
-
-      - mysql
-
-    env: # => 4
-
-      -DJANGO=1.8 DB=mysql
-    install: # => 5
-
-      - pip install -r requirements.txt
-
-    before_script: # => 6
-
-      - mysql -e 'create database test;' -u root
-    script: # => 7
-
-      - python manage.py test
+language: python
+python:
+  - "2.6"
+  - "2.7"
+env:
+  - DJANGO=1.5.7
+  - DJANGO=1.6.4
+install:
+  - pip install -q Django==$DJANGO --use-mirrors
+script:
+  - python setup.py test
