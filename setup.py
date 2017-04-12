@@ -1,0 +1,1 @@
+test_suite='your_app.tests.runtests'
