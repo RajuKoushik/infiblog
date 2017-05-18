@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#upvoteIcon").click(function () {
+            $("fa-thumbs-up").toggleClass("fa-thumbs-o-up");
+        });
+    });
+</script>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="../../static/blog/favicon.ico"/>
+
+    <script src="jquery-3.1.1.min.js"></script>
+    <link href="css/hover.css" rel="stylesheet" media="all">
+
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% load static %}
+
+    <title>Raju Koushik</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #header {
+            color: #ffffff;
+            font-size: 100px;
+            font-family: Constantia;
+            padding-left: 15px;
+            padding-top: 0px;
+            background: black;
+            text-align: center;
+        }
+
+        #border {
+            border-bottom: 2px solid lightgrey;
+            padding: 15px;
+        }
+
+        #post {
+        }
+
+        #name {
+            font-family: Andalus;
+            font-size: 15px;
+            color: white;
+        }
+
+        #date {
+            font-size: 15px;
+            padding-left: 15px;
+            font-family: David;
+        }
+
+        #text {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 15px;
+            padding-left: 15px;
+        }
+
+        #btitle {
+            font-family: Verdana, Geneva, sans-serif;
+            padding: 15px;
+
+        }
+
+        .hvr-float {
+            display: inline-block;
+            vertical-align: middle;
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            transition-duration: 0.3s;
+            transition-property: transform;
+            transition-timing-function: ease-out;
+        }
+
+        .hvr-float:hover,
+        .hvr-float:focus,
+        .hvr-float:active {
+            transform: translateY(-8px);
+        }
+
+        .social-icon {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .social-icon li {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .social-icon a {
+            display: block;
+            width: 44px;
+            height: 44px;
+            line-height: 44px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        .social-icon a {
+            background: rgba(255, 255, 255, 0.85); /* social icon background color */
+            color: #000; /* social icon color */
+        }
+
+        .social-icon a:hover {
+            background: rgba(255, 255, 255, 0.25); /* social icon hover background color */
+            color: #fff; /* social icon hover color */
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            padding-top: 5px;
+            width: 100%;
+            height: 60px;
+            background-color: #000;
+        }
+
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+            margin-left: 145px;
+            margin-right: 145px;
+        }
+
+        {% load static %}
+        .bg-1 {
+            background: url("{% static "blog/final.jpeg" %}");
+            background-attachment: fixed;
+            background-color: #000000; /* Green */
+            color: #ffffff;
+            justify-content: center;
+            align-items: center;
+            /* vertical-align: baseline; */
+            /* display: flex; */
+
+        }
+
+        .testfont {
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        .test {
+            height: calc(100vh);
+        }
+
+        .pad-remove {
+            margin-top: -70px;
+        }
+
+        .bg-2 {
+            background-color: #ffffff; /* WHite */
+            color: #555555;
+        }
+
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+
+        .bg-4 {
+            background-color: #2f2f2f; /* Black Gray */
+            color: #fff;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .pos {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+
+        .navbar-toggle {
+            position: relative;
+            float: right;
+            padding: 9px 10px;
+            margin-top: 8px;
+            margin-right: 15px;
+            margin-bottom: 8px;
+            background-image: none;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .navbar-toggle .icon-bar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            border-radius: 1px;
+            background-color: #ddd /* change this to any color you want! */;
+        }
+
+        .navbar-header button:hover {
+            color: #fff;
+        }
+
+        .navbar-header a:hover {
+            color: #1abc9c !important;
+        }
+
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+
+        p.detail {
+            color: #4C4C4C;
+            font-weight: bold;
+            font-family: Calibri
+        }
+
+        span.name {
+            color: #1abc9c;
+            font-weight: bold;
+            font-family: Tahoma
+        }
+    </style>
+</head>
+<body>
+
+
+<!-- First Container -->
+{% load static %}
+<
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center ">
+
+    <div class="container" style="max-width: 800px; margin : 0 auto;">
+        <div class="jumbotron">
+            <div id="about">
+                <h2 id="btitle" class="hvr-float"><a href="{{ post.id }}" style="color:#1abc9c "><strong>About
+                    Me</strong></a></h2>
+                <p id="date" style="color:#4C4C4C ">Raju Koushik Gorantla</p>
+            </div>
+            <p align="left" id="text">Raju Koushik is an undergraduate from the Indian Institute of Information
+                Technology, Vadodara, India pursuing Information Technology. Google Summer of Code Intern 2017. A hacker, coding enthusiast and a writer. A
+                software developer building servers on Django and Flask and an entrepreneur working on his own startup
+                Travel Diaries. An avid open source contributor lately working on Machine Learning and Information
+                Retrieval. Former Software Engineer Intern at Invoxel Technologies Lmt and Curo Health Care Lmt. You can
+                find him writing, reading or playing table tennis during his leisure time.
+
+            </p>
+        </div>
+    </div>
+
+    {% for post in posts %}
+
+        <div class="container" style="max-width: 800px; margin : 0 auto;">
+            <div class="jumbotron">
+                <h2 id="btitle" class="hvr-float"><a href="{{ post.id }} "
+                                                     style="color:#1abc9c "><strong>{{ post.title }}</strong></a></h2>
+                <p id="date">{{ post.published_date }}</p>
+
+
+                <p align="left" id="text">{{ post.text|linebreaksbr }}</p>
+
+                <hr color="green" width="100%">
+                <i class="fa fa-thumbs-up" aria-hidden="true" id="upvoteIcon"></i>
+
+
+            </div>
+        </div>
+
+        <hr color="green" width="100%">
+    {% endfor %}
+</div>
+
+<!-- Third Container (Grid) -->
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+    <div class="container">
+        <ul class="social-icon animate pull-right">
+            <li><a href="https://www.facebook.com/g.rajukoushik" title="facebook" target="_blank"><i
+                    class="fa fa-facebook"></i></a></li> <!-- change the link to social page and edit title-->
+            <li><a href="https://twitter.com/132ed143fb374f7" title="twitter" target="_blank"><i
+                    class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/104727747464105030726" title="google plus" target="_blank"><i
+                    class="fa fa-google-plus"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+
+
+</html>
