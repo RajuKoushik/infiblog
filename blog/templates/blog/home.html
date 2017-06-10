@@ -169,12 +169,16 @@
 
         {% load static %}
         .bg-1 {
-            background: url("{% static "blog/final.jpeg" %}");
+            background: url("{% static "blog/back_blog.jpg" %}") no-repeat center center fixed;
             background-attachment: fixed;
             background-color: #000000; /* Green */
             color: #ffffff;
             justify-content: center;
             align-items: center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
             /* vertical-align: baseline; */
             /* display: flex; */
 
@@ -266,7 +270,7 @@
         }
 
         span.name {
-            color: #1abc9c;
+            color: #0A1441;
             font-weight: bold;
             font-family: Tahoma
         }
@@ -322,7 +326,8 @@
                 <p id="date" style="color:#4C4C4C ">Raju Koushik Gorantla</p>
             </div>
             <p align="left" id="text">Raju Koushik is an undergraduate from the Indian Institute of Information
-                Technology, Vadodara, India pursuing Information Technology. Google Summer of Code Intern 2017. A hacker, coding enthusiast and a writer. A
+                Technology, Vadodara, India pursuing Information Technology. Google Summer of Code Intern 2017. A
+                hacker, coding enthusiast and a writer. A
                 software developer building servers on Django and Flask and an entrepreneur working on his own startup
                 Travel Diaries. An avid open source contributor lately working on Machine Learning and Information
                 Retrieval. Former Software Engineer Intern at Invoxel Technologies Lmt and Curo Health Care Lmt. You can
