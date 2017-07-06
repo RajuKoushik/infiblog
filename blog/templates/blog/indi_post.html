@@ -60,14 +60,14 @@
 
             font-size: 15px;
             padding-left: 15px;
-            font-family: David;
+            font-family: Verdana, Geneva, sans-serif;
         }
 
         #text {
             color: #555555;
-            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
-            font-size: 14px;
-
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 15px;
+            line-height: 1.8;
             padding-left: 15px;
         }
 
@@ -132,8 +132,8 @@
 <div class="container" style="max-width: 800px; margin : 0 auto;">
     <div class="jumbotron">
         <div id="post">
-            <h2 id="btitle" style="color: #1abc9c"><strong>{{ post.title }}</strong></h2>
-            <p id="date" style="color:#4C4C4C ">Published : {{ post.published_date }}</p>
+            <h2 id="btitle" style="color: #bc873e"><center><strong>{{ post.title }}</strong></center></h2>
+            <p id="date" style="color:#4C4C4C "><center>{{ post.published_date }}<center></p>
         </div>
         <p id="text">{{ post.text|linebreaksbr }}</p>
     </div>

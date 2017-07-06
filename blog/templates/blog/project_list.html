@@ -63,11 +63,10 @@
         }
 
         #text {
-            color: #555555;
             font-family: Verdana, Geneva, sans-serif;
-            font-size: 18px;
-
+            font-size: 15px;
             padding-left: 15px;
+            line-height: 1.8;
         }
 
         #btitle {
@@ -115,7 +114,7 @@
         }
 
         .navbar-nav li a:hover {
-            color: #1abc9c !important;
+            color: #bc873e!important;
         }
     </style>
 
@@ -158,8 +157,8 @@
     <div class="container" style="max-width: 800px; margin : 0 auto;">
     <div class="jumbotron">
         <div id="project">
-            <h2 id="btitle"><a href="#" style="color:#1abc9c "><strong>{{ project.project_title }}</strong></a></h2>
-            <p id="date">{{ project.published_date }}</p>
+            <h2 id="btitle"><a href="#" style="color:#bc873e "><center><strong>{{ project.project_title }}</strong><center></a></h2>
+            <p id="date"><center>{{ project.published_date }}</center></p>
         </div>
         <p id="text">{{ project.text|linebreaksbr }}</p>
     </div>
